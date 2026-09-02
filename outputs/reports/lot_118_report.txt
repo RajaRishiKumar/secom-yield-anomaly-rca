@@ -1,0 +1,29 @@
+## LOT 118 FAILURE INVESTIGATION REPORT
+
+### 1. Executive Summary (2-3 sentences)
+Lot 118 has failed with a HIGH confidence level and a deviation of 1.0976σ from normal. The primary sensor contributing to the failure is candidate sensor 59, with a SHAP value of 0.0319995971271856. The investigation aims to identify the underlying cause of this failure.
+
+### 2. Risk Assessment
+The risk tier for this lot is Medium Risk, indicating a moderate level of concern. The anomaly score of 0.5961 suggests a significant deviation from normal behavior. The CSR (full flip rate) is 0.0, indicating no full flip defects, but the PCR (gap closed) is 0.2205, indicating some gap closed defects.
+
+### 3. Primary Investigation Candidate
+The primary investigation candidate is candidate sensor 59, which has the highest SHAP value (0.0319995971271856) among the top 5 SHAP sensors. This sensor is likely to be a key contributor to the failure.
+
+### 4. Supporting Evidence
+The TOP 5 SHAP sensors (candidate sensors 59, 484, 22, 570, and 164) all have positive SHAP values, indicating that they are contributing to the failure. The DiCE suggested adjustments for sensors 519, 0, 468, 155, and 21 may also provide insight into the underlying cause of the failure.
+
+### 5. Suggested Process Adjustments
+Based on the DiCE suggested adjustments, potential process adjustments could include:
+- Adjusting sensor 519 by -0.5929
+- Adjusting sensor 0 by 2.0776
+- Adjusting sensor 468 by 2.6458
+- Adjusting sensor 155 by 4.554
+- Adjusting sensor 21 by 4.8774
+
+### 6. Investigation Action Items
+1. Collect additional data on candidate sensor 59 to further investigate its contribution to the failure.
+2. Implement the suggested process adjustments and monitor the impact on future lots.
+3. Review the DiCE suggested adjustments and consider implementing additional adjustments to mitigate the failure.
+
+### 7. Confidence Statement
+Based on the available data, it is statistically hypothesized that candidate sensor 59 is a key contributor to the failure of Lot 118. However, further investigation is required to confirm the root cause of the failure.

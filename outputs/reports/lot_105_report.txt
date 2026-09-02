@@ -1,0 +1,30 @@
+## LOT 105 FAILURE INVESTIGATION REPORT
+
+### 1. Executive Summary (2-3 sentences)
+Lot 105 failed with a HIGH confidence score and a deviation of 0.4661σ from normal. The primary sensor contributing to the failure is sensor 59, with a SHAP value of 0.0257. This investigation aims to identify the primary candidate sensor and supporting evidence for the failure.
+
+### 2. Risk Assessment
+The risk tier for this lot is Low Risk, indicating a minimal impact on overall production. However, the anomaly score of 0.541 suggests a significant deviation from normal, warranting further investigation.
+
+### 3. Primary Investigation Candidate
+The primary candidate sensor contributing to the failure is sensor 59, with a SHAP value of 0.0257. This sensor is likely to be a key factor in the failure, but further analysis is required to confirm its role.
+
+### 4. Supporting Evidence
+The TOP 5 SHAP sensors by impact on failure prediction include sensor 59, sensor 115, sensor 485, sensor 161, and sensor 90. These sensors are likely to be related to the failure, but their individual contributions need to be evaluated. The DiCE suggested adjustments for achieving a PASS outcome include changes to sensors 460, 33, 426, 155, and 519. These adjustments may be relevant to the failure, but their impact on the primary candidate sensor needs to be assessed.
+
+### 5. Suggested Process Adjustments
+Based on the DiCE suggested adjustments, potential process adjustments could include:
+- Adjusting sensor 460 by -0.2645
+- Adjusting sensor 33 by 0.7052
+- Adjusting sensor 426 by 2.7801
+- Adjusting sensor 155 by 5.5196
+- Adjusting sensor 519 by 6.7551
+
+### 6. Investigation Action Items
+1. Perform a detailed analysis of sensor 59 to confirm its role in the failure.
+2. Evaluate the impact of the DiCE suggested adjustments on the primary candidate sensor.
+3. Assess the relevance of the TOP 5 SHAP sensors to the failure.
+4. Investigate the potential causes of the deviation from normal for sensor 59.
+
+### 7. Confidence Statement
+Based on the available data, it is statistically hypothesized that sensor 59 is a candidate sensor contributing to the failure of Lot 105. However, further investigation is required to confirm its role and identify the root cause of the failure.

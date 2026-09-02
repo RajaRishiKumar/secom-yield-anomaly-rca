@@ -1,0 +1,31 @@
+## LOT 97 FAILURE INVESTIGATION REPORT
+
+### 1. Executive Summary
+This report details the failure investigation of LOT 97, a high-risk production batch with a true label of FAIL. The primary candidate sensor contributing to the failure is sensor 59, with a SHAP value of 0.0322. The investigation aims to identify the underlying cause of the failure and provide actionable adjustments to prevent similar failures in the future.
+
+### 2. Risk Assessment
+The risk tier for LOT 97 is classified as High Risk, indicating a significant likelihood of yield loss. The anomaly score of 0.7802 further emphasizes the severity of the issue. The deviation of 0.7552σ from normal suggests a significant departure from expected behavior.
+
+### 3. Primary Investigation Candidate
+The primary candidate sensor contributing to the failure is sensor 59, with a SHAP value of 0.0322. This sensor is a critical component in the manufacturing process, and its anomalous behavior is likely a key factor in the failure of LOT 97.
+
+### 4. Supporting Evidence
+The top 5 SHAP sensors by impact on failure prediction provide additional evidence of sensor 59's critical role in the failure. The SHAP values of these sensors, ranging from 0.0322 to 0.0159, indicate a significant contribution to the overall failure prediction. Furthermore, the DiCE suggested adjustments for sensors 563, 0, 129, 468, and 21 provide insight into potential process adjustments that could mitigate similar failures in the future.
+
+### 5. Suggested Process Adjustments
+Based on the DiCE suggested adjustments, potential process adjustments to achieve a PASS outcome include:
+- Adjusting sensor 563 by -0.8065
+- Adjusting sensor 0 by -0.3669
+- Adjusting sensor 129 by -0.1521
+- Adjusting sensor 468 by -0.1017
+- Adjusting sensor 21 by 0.595
+
+### 6. Investigation Action Items
+To further investigate the failure of LOT 97 and prevent similar failures in the future, the following action items are recommended:
+- Review and analyze sensor 59's behavior in previous production lots
+- Verify the accuracy of sensor 59's measurements and calibrate if necessary
+- Implement the suggested process adjustments for sensors 563, 0, 129, 468, and 21
+- Monitor the performance of LOT 98 and subsequent production lots to assess the effectiveness of the suggested adjustments
+
+### 7. Confidence Statement
+Based on the analysis of LOT 97, it is statistically hypothesized that sensor 59 is a critical candidate sensor contributing to the failure. However, further investigation is required to confirm the root cause of the failure. The suggested process adjustments are based on DiCE analysis and are intended to mitigate similar failures in the future.

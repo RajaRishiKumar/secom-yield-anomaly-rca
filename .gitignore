@@ -1,0 +1,25 @@
+# Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Streamlit / secrets
+.streamlit/secrets.toml
+*.env
+.env
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CatBoost training logs
+catboost_info/
+
+# Large export artifacts (not needed in repo)
+*.pdf
+!assets/*.pdf

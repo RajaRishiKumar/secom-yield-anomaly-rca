@@ -1,0 +1,33 @@
+## LOT 123 FAILURE INVESTIGATION REPORT
+
+### 1. Executive Summary (2-3 sentences)
+This report investigates the failure of Lot 123, a medium-risk production batch that failed to meet quality standards. The primary sensor candidate associated with the failure is Sensor 59, with a significant SHAP value of 0.0179597247502507. The investigation aims to identify the underlying causes of the failure and suggest process adjustments to prevent similar failures in the future.
+
+### 2. Risk Assessment
+The risk tier for this lot is Medium Risk, indicating a moderate level of concern. The anomaly score of 0.5634 and deviation of 0.4562σ from normal suggest that the lot exhibited significant deviations from expected behavior, contributing to the risk assessment.
+
+### 3. Primary Investigation Candidate
+The primary sensor candidate associated with the failure is Sensor 59, which has a significant SHAP value of 0.0179597247502507. This suggests that Sensor 59's measurements played a crucial role in the failure prediction.
+
+### 4. Supporting Evidence
+The top 5 SHAP sensors by impact on failure prediction further support Sensor 59 as the primary candidate. Additionally, the DiCE suggested adjustments for Sensor 460, 0, 21, and 205 indicate potential correlations between these sensors and the failure. The correction metrics, CSR (0.0) and PCR (0.32), suggest that the lot's performance was not significantly improved by corrective actions.
+
+### 5. Suggested Process Adjustments
+Based on the DiCE suggested adjustments, potential process adjustments to achieve a PASS result include:
+
+* Adjusting Sensor 129 by -3.7039
+* Adjusting Sensor 0 by -3.1949
+* Adjusting Sensor 21 by 0.5629
+* Adjusting Sensor 460 by 2.8753
+* Adjusting Sensor 205 by 23.0695
+
+### 6. Investigation Action Items
+To further investigate the failure, the following action items are recommended:
+
+* Collect additional data from Sensor 59 to understand its behavior during the failure
+* Investigate the correlations between Sensor 59 and the other top SHAP sensors
+* Review the DiCE suggested adjustments and their potential impact on the process
+* Conduct experiments to validate the suggested process adjustments
+
+### 7. Confidence Statement
+Based on the analysis, the confidence in the primary investigation candidate, Sensor 59, is HIGH. However, further investigation is required to confirm the underlying causes of the failure and ensure that the suggested process adjustments are effective.

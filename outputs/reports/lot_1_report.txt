@@ -1,0 +1,30 @@
+## LOT 1 FAILURE INVESTIGATION REPORT
+
+### 1. Executive Summary (2-3 sentences)
+A high-risk production lot (Lot Index 1) failed with a high anomaly score of 0.6888 and a deviation of 2.3071σ from normal. The primary sensor contributing to the failure is candidate sensor 59, with a SHAP value of 0.0194153325321136. The investigation aims to identify the underlying cause of this failure.
+
+### 2. Risk Assessment
+The lot is classified as High Risk, indicating a significant likelihood of yield loss. The high anomaly score and deviation from normal further emphasize the need for a thorough investigation.
+
+### 3. Primary Investigation Candidate
+Candidate sensor 59 is the primary sensor contributing to the failure, with a SHAP value indicating its significant impact on the failure prediction. This sensor is a critical component in the manufacturing process, and its performance may be a key factor in the lot's failure.
+
+### 4. Supporting Evidence
+The TOP 5 SHAP sensors list reinforces the importance of candidate sensor 59, ranking it third in terms of impact on failure prediction. Additionally, the TOP DiCE suggested adjustments list provides potential corrective actions to achieve a PASS outcome, including adjustments to sensors 485, 468, 519, 460, and 420.
+
+### 5. Suggested Process Adjustments
+Based on the DiCE suggestions, potential process adjustments to achieve a PASS outcome include:
+- Adjusting sensor 485 by 0.5996
+- Adjusting sensor 468 by 1.4844
+- Adjusting sensor 519 by 4.9543
+- Adjusting sensor 460 by 8.2355
+- Adjusting sensor 420 by 15.1816
+
+### 6. Investigation Action Items
+To further investigate the failure, the following action items are recommended:
+- Collect and analyze data from candidate sensor 59 to understand its performance and potential issues
+- Implement the suggested process adjustments and monitor the impact on the manufacturing process
+- Review and analyze the CSR and PCR correction metrics to ensure effective correction of the failure
+
+### 7. Confidence Statement
+Based on the high anomaly score, deviation from normal, and significant SHAP value of candidate sensor 59, we have a HIGH confidence in the investigation's findings and the suggested process adjustments. However, further investigation and analysis are necessary to confirm the root cause of the failure.
